@@ -5,7 +5,7 @@ class PropertyForm(ModelForm):
     class Meta:
         model = Property
         fields = (
-            "name",
+            "title",
             "description",
             "price_per_night",
             "bedrooms",
